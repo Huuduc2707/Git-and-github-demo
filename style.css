@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    font-size: 18px;
+    background-color: #B289F3;
+    font-weight: 500;
+    padding-left: 5%;
+}
+
+#header{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav-link{
+    color:white;
+}
+
+span{
+    width: 800px;
+    height: 100%;
+}
+
+.multiMedia a{
+    color: white;
+}
+
+i{
+    margin-right: 20px;
+}
+
+#dropdown{
+    margin-left: 15px;
+}
