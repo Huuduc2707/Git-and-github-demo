@@ -37,3 +37,169 @@ i{
 #dropdown{
     margin-left: 15px;
 }
+
+#credit{
+    width: 40%;
+    display: inline-block;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-left: 10%;
+}
+
+#credit p{
+    width: 40%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#credit b{
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#contact{
+    width: 40%;
+    display: inline-block;
+    padding-left: 20%;
+    font-weight: 400;
+}
+
+#main{
+    width: 100%;
+    padding: 0;
+}
+
+#overall{
+    background-image: url('media/alexander-grey-jYbKxinWQGk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+#overall h1{
+    margin-top: 225px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#overall img{
+    margin-top: 120px;
+}
+
+#overall button{
+    margin-top: 5px;
+}
+
+#overall p{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.btn-info{
+    background-color: #B289F3;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.content{
+    margin: 0 7%;
+    word-wrap: break-word;
+}
+
+.content h1{
+    margin-top: 10%;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.content p{
+    text-align: left;
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+
+.setup{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.setup i{
+    font-size: 40px;
+}
+
+.setup p{
+    font-size: 20px;
+}
+
+.content a, .setup a{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 2%;
+}
+
+.content span a{
+    color: rgb(50, 50, 238);
+    display: inline;
+}
+
+.content .row .col p{
+    width: 100%;
+}
+
+.content .row .col img{
+    width: 40em;
+    height: 25em;
+}
+
+.content .row.icon{
+    margin-top: 10%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 570px) {
+    #credit, #contact{
+        display: block;
+        text-align: left;
+        padding: 0;
+        width: 70%;
+    }
+
+    #credit p{
+        width: 100%;
+    }
+
+    #overall p{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .content .row{
+        display: none;
+    }
+
+    .content .row.icon{
+        display: block;
+    }
+
+    .content .row.icon img{
+        width: 20em;
+        height: 13em;
+    }
+
+    .content h1{
+        font-size: 35px;
+    }
+}

@@ -71,12 +71,141 @@
 
     <!--Body-->
     <div class="container-fluid" id="main">
+        <div id="overall">
+            <button type="button" class="btn btn-warning"><b>New in v5.2</b></button>
+            <span>CSS variables, responsive offcanvas, new utilities, and more!</span>
+            <img src="media\Bootstrap_logo.svg.png" alt="logo" class="d-block position-absolute start-50 translate-middle" width="200" heigh="165">
+            <h1>Build fast, responsive sites with Bootstrap</h1>
+            <p>Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system
+            and components, and bring projects to life with powerful JavaScript plugins.</p>
+            <button type="button" class="btn btn-info"><i class="bi bi-book-half"></i>Read the doc</button>
+        </div>
+        <div class="content">
+            <h1>What is Bootstrap</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut ante vitae nunc consectetur dignissim. Donec sit
+            amet tincidunt velit. Morbi bibendum imperdiet lobortis. Maecenas condimentum, libero in ullamcorper fermentum, metus
+            diam pulvinar ligula, vel eleifend augue metus quis tortor. Quisque sollicitudin, ipsum quis aliquet placerat, ligula
+            magna sollicitudin metus, auctor ornare ante metus ac mi. Proin eu eros urna. Aliquam mattis libero sed euismod
+            tincidunt. Mauris finibus blandit eros, vel iaculis ex. Mauris in lacus interdum turpis rutrum euismod. Vivamus eros
+            est, condimentum eget turpis sit amet, maximus blandit orci. Mauris in placerat orci. Maecenas vitae pulvinar neque, a
+            porttitor nibh. Ut quis mi quis felis pellentesque tincidunt.</p>
 
+            <div class="row icon">
+                <div class="col">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h1>Personalize it with Bootstrap Icons</h1>
+                        </li>
+                        <li>
+                            <p>Bootstrap Icons is an open source SVG icon library featuring over 1,500 glyphs, with more added every
+                                release.
+                                They're
+                                designed to work in any project, whether you use Bootstrap itself or not. Use them as SVGs or icon
+                                fonts—both
+                                options
+                                give you vector scaling and easy customization via CSS.</p>
+                        </li>
+                        <li><a href="#">Get Bootstrap Icons</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="media\bootstrap-icons.png" alt="logo">
+                </div>
+            </div>
+
+            <h1>Customize everything with Sass</h1>
+            <p>Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need, enable global
+            options like gradients and shadows, and write your own CSS with our variables, maps, functions, and mixins.</p>
+            <a href="#">Learn more about Sass and customization</a>
+            <div class="row">
+                <div class="col"><h2>Include all of Bootstrap’s Sass</h2></div>
+                <div class="col"><h2>Include what you need</h2></div>
+            </div>
+            <div class="row">
+                <div class="col"><p>Import one stylesheet and you're off to the races with every feature of our CSS.</p></div>
+                <div class="col"><p>The easiest way to customize Bootstrap—include only the CSS you need.</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><img src="media\Picture3.png" alt="logo" style="width:40em; height:12em"></div>
+                <div class="col"><img src="media\Picture4.png" alt="logo" style="width:40em; height:32em"></div>
+            </div>
+            
+
+            <h1>Build and include in real-time with CSS-variables</h1>
+            <p>Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme styles, individual
+            components, and even utilities. We provide dozens of variables for colors, font styles, and more at a :root level for
+            use anywhere. On components and utilities, CSS variables are scoped to the relevant class and can easily be modified.</p>
+            <a href="#">Learn more about CSS variables</a>
+            <div class="row">
+                <div class="col"><h2>Using CSS variables</h2></div>
+                <div class="col"><h2>Customizing via CSS variables</h2></div>
+            </div>
+            <div class="row">
+                <div class="col"><p>Use any of our global :root variables to write new styles. CSS variables use the var(--bs-variableName) syntax and can
+                be inherited by children elements.</p></div>
+                <div class="col"><p>Override global, component, or utility class variables to customize Bootstrap just how you like. No need to redeclare
+                each rule, just a new variable value.</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><img src="media\Picture1.png" alt="logo"></div>
+                <div class="col"><img src="media\Picture2.png" alt="logo"></div>
+            </div>
+
+            <h1>Components, meet the Utility API</h1>
+            <p>New in Bootstrap 5, our utilities are now generated by our Utility API. We built it as a feature-packed Sass map that
+                can be quickly and easily customized. It's never been easier to add, remove, or modify any utility classes. Make
+                utilities responsive, add pseudo-class variants, and give them custom names.</p>
+            <a href="#">Learn more about utilities</a>
+            <a href="#">Explore customized components</a>
+
+            <div class="row icon">
+                <div class="col">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h1>Make it yours with official Bootstrap Themes</h1>
+                        </li>
+                        <li>
+                            <p>Take Bootstrap to the next level with premium themes from the official <span><a href="#">Bootstrap Themes
+                            marketplace</a></span>. Themes are built on
+                            Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build
+                            tools.</p>
+                        </li>
+                        <li><a href="#">Browse Bootstrap Themes</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="media\bootstrap-themes.png" alt="logo">
+                </div>
+            </div>
+        </div>
+        
+        <div class="setup">
+            <i class="bi bi-cloud-arrow-down-fill"></i>
+            <h1>Get started any way you want</h1>
+            <p>Jump right into building with Bootstrap—use the CDN, install it via package manager, or download the source code.</p>
+            <a href="#">Read installation docs</a>
+        </div>
     </div>
 
     <!--Footer-->
-    <div class="container-fluid" id="footer">
-
-    </div>
+    <footer class="bg-light">
+        <div class="row" id="credit">
+            <ul class="list-unstyled">
+                <li><img src="media\Bootstrap_logo.svg.png" alt="logo" width="40" height="32"> <b>Bootstrap</b></li>
+                <li><p>Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</p></li>
+            </ul>
+        </div>
+        <div class="row" id="contact">
+            <h5>Contact us</h5>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-house-fill"></i>New York, NY 10012, US</li>
+                <li><i class="bi bi-phone-fill"></i>+01 234 567 890</li>
+                <li><i class="bi bi-envelope-fill"></i>Bootstrap@gmail.com</li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <h6>&copy; 2022 | Created and designed by: Phạm Hữu Đức</h6>
+        </div>
+    </footer>
 </body>
 </html>
